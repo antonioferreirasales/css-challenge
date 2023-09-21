@@ -1,0 +1,9 @@
+:root {
+  color: black;
+  text-align: center;
+}
+
+.container {
+  width: 570px;
+  margin: 10px auto;
+}
