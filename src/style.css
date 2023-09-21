@@ -1,4 +1,6 @@
-:root {
+body {
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 21px;
@@ -10,6 +12,7 @@
 h1,
 h2 {
   font-weight: inherit;
+  /* margin: 0; */
 }
 
 h1 {
@@ -23,6 +26,11 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
+  /* margin: 0; */
+}
+
+p {
+  /* margin: 0; */
 }
 
 .small {
@@ -54,5 +62,20 @@ a:hover{
 
 .container {
   width: 570px;
-  margin: 10px auto;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #D7D7D7;
+  padding: 100px 0;
+}
+
+.first-section {
+  background-color: #FFEAEA;
+  padding: 100px 0;
+}
+
+.second-section {
+  background-color: #EAF9FF;
+  padding: 100px 0;
 }
