@@ -1,3 +1,8 @@
+:root {
+  --black-bg: #252525;
+  --text-color: #FFF;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +17,6 @@ body {
 h1,
 h2 {
   font-weight: inherit;
-  /* margin: 0; */
 }
 
 h1 {
@@ -26,11 +30,6 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
-  /* margin: 0; */
-}
-
-p {
-  /* margin: 0; */
 }
 
 .small {
@@ -78,4 +77,9 @@ header {
 .second-section {
   background-color: #EAF9FF;
   padding: 100px 0;
+}
+
+.theme {
+  color: var(--text-color);
+  background-color: var(--black-bg);
 }
