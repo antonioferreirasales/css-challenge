@@ -1,6 +1,7 @@
 :root {
   --black-bg: #252525;
   --text-color: #FFF;
+  --green-text: #99D930;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 h1,
 h2 {
   font-weight: inherit;
-  margin-top: 0;
+  margin-top: 0;;
 }
 
 h1 {
@@ -47,7 +48,6 @@ p {
 }
 
 .text-callout {
-  font-weight: 900;
   display: block;
 }
 
@@ -65,6 +65,16 @@ a {
 
 a:hover{
   color: #131313;
+}
+
+.second-section a:hover{
+  background-color: #fff;
+  color: #252525;
+}
+
+.text-callout, .name, time {
+  color: var(--green-text);
+  font-weight: 900;
 }
 
 /* container */
